@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-gcc -o ho_ho_hop.so ho_ho_hop.c $(yed --print-cflags) $(yed --print-ldflags)
+gcc -o yule_2022.so yule_2022.c $(yed --print-cflags) $(yed --print-ldflags)
