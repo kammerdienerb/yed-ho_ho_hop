@@ -1,0 +1,28 @@
+const char *game_over_bg[] = {
+"rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+"rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+"rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+"rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+"rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+"rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr" };
+
+const char *game_over_fg[] = {
+"   wwww    w    ww  ww wwwww    wwwww     wwwwwww wwww   ",
+"  w wwww  w w  w  ww  w wwwww  w w w w   w w wwwww  w w  ",
+" w w  w  w w w w wwww w  ww   w w w w w w ww  ww w www w ",
+" w www ww www ww w  w w wwww  w www ww w w w wwwww  w w  ",
+"  wwwwwwww   wwwww  wwwwwwwww  wwwww  www  wwwwwwwww www ",
+"                                                         " };
+
+const char *game_over_ch[] = {
+"   ____    _    __  __ _____    _____     _______ ____   ",
+"  / ___|  / \\  |  \\/  | ____|  / _ \\ \\   / / ____|  _ \\  ",
+" | |  _  / _ \\ | |\\/| |  _|   | | | \\ \\ / /|  _| | |_) | ",
+" | |_| |/ ___ \\| |  | | |___  | |_| |\\ V / | |___|  _ <  " ,
+"  \\____/_/   \\_\\_|  |_|_____|  \\___/  \\_/  |_____|_| \\_\\ ",
+"                                                         " };
+
+#define game_over_width  (57)
+#define game_over_height (6)
+
+SPRITE(game_over);

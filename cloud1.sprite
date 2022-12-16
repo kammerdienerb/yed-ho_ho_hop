@@ -1,0 +1,19 @@
+const char *cloud1_bg[] = {
+"   BBBBBBB      ",
+"  BBBBBBBBBBBB  ",
+"BBBBBBBBBBBBBBBB" };
+
+const char *cloud1_fg[] = {
+"   BBBBBBBB     ",
+"  BBBBBBBBBBBB  ",
+"BBBBBBBBBBBBBBBB" };
+
+const char *cloud1_ch[] = {
+"XXX( `   )_XXXXX",
+"XX(    )    `)XX",
+"(_   (_ .  _) _)X" };
+
+#define cloud1_width  (16)
+#define cloud1_height (3)
+
+SPRITE(cloud1);

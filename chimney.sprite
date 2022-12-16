@@ -1,0 +1,22 @@
+const char *chimney_bg[] = {
+" kkkkkk ",
+"kkkkkkkk",
+" kkkkkk ",
+" kkkkkk " };
+
+const char *chimney_fg[] = {
+" wwwwww ",
+"wwwwwwww",
+" wwwwww ",
+" wwwwww " };
+
+const char *chimney_ch[] = {
+"X------X",
+"/_.--._\\",
+"X|=   |X",
+"X|  =-|X" };
+
+#define chimney_width  (8)
+#define chimney_height (4)
+
+SPRITE(chimney);

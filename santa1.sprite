@@ -1,0 +1,58 @@
+const char *santa1_bg[] = {
+"       www       ",
+"       rrr       ",
+"      rrrrr      ",
+"     rrrrrrr     ",
+"   wwwwwwwwwww   ",
+"    wwtttttww    ",
+"   wwtttttttww   ",
+"   wwwwtttwwww   ",
+"   rwwwwwwwwwr   ",
+"  rrrwwwwwwwrrr  ",
+" rrrrrrwwwrrrrrr ",
+"wwwwkkkyyykkkwwww",
+"GGGrrrrrrrrrrrGGG",
+"    rrrrrrrrr    ",
+"     rrrrrrr     ",
+"    GGGGGGGGG    " };
+
+const char *santa1_fg[] = {
+"       www       ",
+"       krk       ",
+"      krrrk      ",
+"     kwwwwwk     ",
+"   wwwwwwwwwww   ",
+"    GGGkGkGGG    ",
+"   GGkkkkkkkGG   ",
+"   GGGGGkGGGGG   ",
+"   kGGGGGGGGGk   ",
+"  kkkGGGGGGGkkk  ",
+" kkkkkkGGGkkkkkk ",
+"wwwwkkkkkkkkkwwww",
+"kkkkkkkkkkkkkkkkk",
+"    kkkkkkkkk    ",
+"     kkkkkkk     ",
+"    kkkkkkkkk    " };
+
+const char *santa1_ch[] = {
+"XXXXXXX{_}XXXXXXX",
+"XXXXXXX/ \\XXXXXXX",
+"XXXXXX/   \\XXXXXX",
+"XXXXX/_____\\XXXXX",
+"XXX{`_______`}XXX",
+"XXXX// . . \\\\XXXX",
+"XXX(/(__7__)\\)XXX",
+"XXX|'-' = `-'|XXX",
+"XXX \\       / XXX",
+"XX   '.   .'   XX",
+"X _/   `\"`   \\_ X",
+"{__}###[_]###{__}",
+"(_/ _________  _)",
+"XXXX    |    XXXX",
+"XXXXX   |   XXXXX",
+"XXXX(__)`(__)XXXX" };
+
+#define santa1_width  (17)
+#define santa1_height (16)
+
+SPRITE(santa1);

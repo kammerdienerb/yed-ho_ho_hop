@@ -1,0 +1,29 @@
+const char *moon_bg[] = {
+"      ",
+"      ",
+"      ",
+"      ",
+"      ",
+"      " };
+
+
+const char *moon_fg[] = {
+"YY    ",
+" YYYY ",
+"   YYY",
+"   YYY",
+"  YYYY",
+"YYYY  " };
+
+const char *moon_ch[] = {
+"._XXXX",
+"X`::.X",
+"XXX:::",
+"XXX:::",
+"XX.::'",
+".:''XX" };
+
+#define moon_width  (6)
+#define moon_height (6)
+
+SPRITE(moon);
